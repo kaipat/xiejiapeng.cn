@@ -28,7 +28,7 @@ export default function Home() {
           <div className="mt-6">
             <p className="font-bold mb-1">Find me on</p>
             <div className="flex items-center justify-start flex-wrap">
-              <a href="/" target="_blank" className="inline-flex items-center mr-4 border-b border-b-slate-300 hover:border-b-black">
+              <a href="https://github.com/kaipat" target="_blank" className="inline-flex items-center mr-4 border-b border-b-slate-300 hover:border-b-black">
                 <GithubIcon className="w-[1.12rem] h-[1.12rem] mr-1"/>
                 <span>GitHub</span>
               </a>
