@@ -4,7 +4,7 @@ import GithubIcon from "@/components/icons/github";
 
 export default function Home() {
   return (
-    <main className="min-h-full relative bg-[url('/images/home-bg.png')] bg-cover bg-bottom before:h-16 before:block after:h-16 after:block flex flex-col justify-center items-center">
+    <main className="min-h-full relative bg-[url('/images/home-bg.webp')] bg-cover bg-bottom before:h-16 before:block after:h-16 after:block flex flex-col justify-center items-center">
       <div className="absolute inset-x-0 bottom-0 h-1/4 lg:h-1/3 text-slate-600/10 [mask-image:linear-gradient(to_bottom,transparent,white)]">
         <Net />
       </div>
