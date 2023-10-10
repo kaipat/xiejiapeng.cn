@@ -8,8 +8,7 @@ export const metadata: Metadata = {
   title: {
     default: SITE_NAME!,
     template: `%s | ${SITE_NAME}`
-  },
-  themeColor: "#FFFBEB"
+  }
 };
 
 const inter = Inter({
@@ -22,8 +21,8 @@ export default function RootLayout({ children }: {
   children: ReactNode
 }) {
   return (
-    <html lang="en" className={`h-full ${inter.variable}`}>
-      <body className="h-full text-black">
+    <html lang="en" className={`${inter.variable} h-full bg-[#F7F9FB] dark:bg-transparent`}>
+      <body className="h-full text-black dark:text-slate-300">
         {children}
       </body>
     </html>
