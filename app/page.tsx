@@ -33,15 +33,11 @@ export default function Home() {
         <div className="p-6 leading-loose">
           <p><span className="text-3xl sm:text-xlfont-semibold">Hey</span>, I am <span
             className="font-semibold">XieJiaPeng</span>, a front-end developer.</p>
-          <p className="mb-3">Working at <a href="https://www.hugecore.net" target="_blank"
-            className="border-b border-b-slate-300 dark:border-b-slate-300/30 hover:border-b-black dark:hover:border-b-slate-300 ">Hugecore
-            Ltd</a>.</p>
-          <p className="mb-3">I code in JavaScript or TypeScript and use Vue, React, and Tailwind CSS in my daily
-            projects. I also use NestJS to develop my backend applications. I consider myself a student in the field of
-            technology, always maintaining curiosity and continuously learning about the unknown.</p>
-          <p>Besides coding, I enjoy watching movies and having tea with my family; it is quite relaxing for me.
-            Occasionally, I also read books and have started trying my hand at writing. I hope these activities bring a
-            different dimension to my life.</p>
+          <p className="mb-3">Working at Hugecore Ltd.</p>
+          <p className="mb-2">I immerse myself in the dynamic world of web development, specializing in JavaScript and TypeScript. With Vue, React, and Tailwind CSS as my trusted companions, I craft engaging user experiences that resonate with modern design trends and user expectations. Additionally, I leverage the power of NestJS to architect robust backend solutions, ensuring seamless integration and functionality across my applications.</p>
+          <p className="mb-2">Fuelled by an insatiable curiosity, I approach each project as an opportunity to expand my knowledge and skills. Whether it's exploring emerging technologies or diving deep into intricate coding challenges, I embrace the role of a perpetual student, constantly seeking to uncover the unknown and refine my craft.</p>
+          <p className="mb-2">Beyond the realm of technology, I find solace and inspiration in simpler pleasures. Sharing moments over tea with my family brings a sense of tranquility, while indulging in cinematic experiences provides a welcome escape from the demands of the digital world. Moreover, my newfound passion for literature has led me to explore the realm of writing, adding yet another dimension to my life's journey.</p>
+          <p className="mb-2">In the convergence of creativity and code, I discover not only solutions to technical problems but also avenues for personal growth and fulfillment. With each line of code written and each chapter read, I strive to weave a narrative of continuous learning and self-discovery, enriching both my professional endeavors and personal pursuits alike.</p>
           <div className="mt-6">
             <p className="font-bold mb-1">Find me on</p>
             <div className="flex items-center justify-start flex-wrap">
