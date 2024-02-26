@@ -54,6 +54,14 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <Link href="/article" className="flex justify-center items-center border border-gray-300 w-[120px] rounded-btn absolute right-[30px] bottom-[30px] p-2 hover:cursor-pointer">
+          Article
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+            stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"/>
+          </svg>
+        </Link>
       </div>
       <div className="absolute bottom-2 text-sm">
         <Link href="https://beian.miit.gov.cn" target="_blank">粤ICP备2022080917号-1</Link>
