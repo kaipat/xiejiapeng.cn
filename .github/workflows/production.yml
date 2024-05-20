@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  SERVER: ubuntu@42.193.192.55
+  SERVER: ubuntu@119.91.200.187
   REPOSITORY: ccr.ccs.tencentyun.com
   IMAGE: ccr.ccs.tencentyun.com/xiejiapeng/${{ github.event.repository.name }}:production
   CONTAINER: ${{ github.event.repository.name }}.production
