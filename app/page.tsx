@@ -79,9 +79,9 @@ export default function Home() {
         </Link>
       </div>
       <div className="absolute bottom-2 text-sm">
-        {/*<Link href="https://beian.miit.gov.cn" target="_blank">粤ICP备2022080917号-1</Link>*/}
+        <Link href="https://beian.miit.gov.cn" target="_blank">粤ICP备2022080917号-1</Link>
         {/*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*/}
-        <Link href="https://beian.miit.gov.cn" target="_blank">粤ICP备2022080917号-3</Link>
+        {/*<Link href="https://beian.miit.gov.cn" target="_blank">粤ICP备2022080917号-3</Link>*/}
       </div>
     </main>
     // <main
